@@ -369,13 +369,11 @@ export default {
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  color: #00b351; /* Warna hijau terang */
   
 }
 
-.form-group label[data-v-7a7a37b1]  {
-  color: #00b351;
-  padding-bottom: 20px;
-}
+
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -483,8 +481,9 @@ export default {
     flex-direction: column;
     align-items: flex-start;
   }
-  .form-group label[data-v-7a7a37b1]  {
-  color: #00b351;
+  .form-group label {
+    color: #00b351; /* Pastikan warna tetap diterapkan */
+  
   padding-bottom: 20px;
 }
 
