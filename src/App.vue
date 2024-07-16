@@ -493,6 +493,12 @@ export default {
   color: #0d0e0d; /* Green color for table data */
 }
 
+.data-list th {
+  color: #0d0e0d; /* Green color for table data */
+  white-space: nowrap; 
+
+}
+
 
   .filter-button,
   .tambah-data-button {
@@ -523,6 +529,8 @@ export default {
   .data-list td {
   color: #0d0e0d; /* Green color for table data */
 }
+
+
 
   .edit-button,
   .delete-button {
