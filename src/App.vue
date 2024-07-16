@@ -520,11 +520,9 @@ export default {
     font-size: 14px;
   }
 
-  .data-list th,
   .data-list td {
-    padding: 8px;
-    color: #00b33c;
-  }
+  color: #0d0e0d; /* Green color for table data */
+}
 
   .edit-button,
   .delete-button {
