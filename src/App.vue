@@ -377,6 +377,7 @@ export default {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
+  color: #000;
 }
 
 .submit-button {
@@ -467,43 +468,41 @@ export default {
 }
 
 
-/* Media Queries untuk Responsif */
-
-/* Ponsel dengan lebar maksimum 600px */
-@media (max-width: 600px) {
+/* Style untuk tampilan ponsel seperti Oppo A54 */
+@media (max-width: 768px) {
   .content {
     padding: 10px;
   }
 
   .button-container {
     flex-direction: column;
-    gap: 10px;
+    align-items: flex-start;
   }
 
   .filter-button,
   .tambah-data-button {
     width: 100%;
-    padding: 12px 0;
-    font-size: 14px;
+    margin-bottom: 10px;
   }
 
-  .filter-dropdown {
-    width: 100%;
-    font-size: 14px;
+  .saldo-keterangan {
+    margin-left: 0;
+    margin-top: 10px;
   }
 
   .modal-content {
     width: 90%;
-    padding: 15px;
   }
 
-  .submit-button {
-    padding: 10px 0;
+  .filter-dropdown {
+    width: 100%;
+  }
+  .submit-button{
+    margin-right: 5px;
+  }
+
+  .data-list table {
     font-size: 14px;
-  }
-
-  .data-list {
-    padding: 10px;
   }
 
   .data-list th,
@@ -513,32 +512,12 @@ export default {
 
   .edit-button,
   .delete-button {
-    padding: 4px 8px;
-    font-size: 12px;
+    padding: 8px 12px;
+    font-size: 14px;
   }
 
   .modal-close-button {
     font-size: 20px;
-  }
-}
-
-/* Ponsel dengan lebar maksimum 400px */
-@media (max-width: 400px) {
-  .filter-button,
-  .tambah-data-button {
-    font-size: 12px;
-  }
-
-  .filter-dropdown {
-    font-size: 12px;
-  }
-
-  .modal-content {
-    width: 95%;
-  }
-
-  .submit-button {
-    font-size: 12px;
   }
 }
 
