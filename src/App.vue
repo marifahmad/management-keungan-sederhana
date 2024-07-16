@@ -415,6 +415,9 @@ export default {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+.data-list td {
+  color: #0d0e0d; /* Green color for table data */
+}
 
 .data-list th {
   background-color: #f2f2f2;
@@ -486,10 +489,10 @@ export default {
   
   padding-bottom: 20px;
 }
-
-.modal-content[data-v-7a7a37b1] {
-width: 250px;
+.data-list td {
+  color: #0d0e0d; /* Green color for table data */
 }
+
 
   .filter-button,
   .tambah-data-button {
@@ -520,6 +523,7 @@ width: 250px;
   .data-list th,
   .data-list td {
     padding: 8px;
+    color: #00b33c;
   }
 
   .edit-button,
