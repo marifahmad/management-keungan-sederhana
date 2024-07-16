@@ -100,11 +100,11 @@
             <td>{{ data.kategori === 'uang-masuk' ? 'Uang Masuk' : 'Uang Keluar' }}</td>
             <td>{{ data.keterangan }}</td>
             <td>
-              <button @click="editData(data)" class="edit-button">
-                <i class="fas fa-edit"></i> Edit
+              <button @click="editData(data)" class="edit-button" style="margin-bottom: 5px;">
+                <i class="fas fa-edit"></i> 
               </button>
               <button @click="deleteData(data.nomorUrut)" class="delete-button">
-                <i class="fas fa-trash"></i> Delete
+                <i class="fas fa-trash"></i> 
               </button>
             </td>
           </tr>
@@ -496,6 +496,7 @@ export default {
 .data-list th {
   color: #0d0e0d; /* Green color for table data */
   white-space: nowrap; 
+  padding: 10px 43px 10px 10px;
 
 }
 
