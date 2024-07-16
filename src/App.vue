@@ -369,8 +369,13 @@ export default {
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  
 }
 
+.form-group label[data-v-7a7a37b1]  {
+  color: #00b351;
+  padding-bottom: 20px;
+}
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -478,6 +483,14 @@ export default {
     flex-direction: column;
     align-items: flex-start;
   }
+  .form-group label[data-v-7a7a37b1]  {
+  color: #00b351;
+  padding-bottom: 20px;
+}
+
+.modal-content[data-v-7a7a37b1] {
+width: 250px;
+}
 
   .filter-button,
   .tambah-data-button {
